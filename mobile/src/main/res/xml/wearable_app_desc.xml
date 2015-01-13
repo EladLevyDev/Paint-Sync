@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wearableApp package="wearapps.com.paintsync">
+    <versionCode>6</versionCode>
+    <versionName>1.5</versionName>
+    <rawPathResId>wearable_app</rawPathResId>
+</wearableApp>

@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/lbMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Options"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <FrameLayout
+        android:layout_width="120dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/layoutButtons"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lbMessage"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/imageViewColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/brush"
+            android:gravity="center"
+            android:text="color"
+            android:layout_gravity="left"
+            android:textSize="10sp"
+
+            />
+
+        <TextView
+            android:id="@+id/imageViewBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/background"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_gravity="center"
+            android:text="Background"
+            android:layout_centerHorizontal="true"
+          />
+
+        <TextView
+            android:id="@+id/imageViewEraser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:drawableTop="@drawable/eraser"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="Erase"
+            android:layout_centerHorizontal="true"
+             />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/frame2"
+        android:layout_below="@+id/layoutButtons"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/imageViewClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/clear"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:text="Clear"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/imageViewSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:drawableTop="@drawable/save"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Save"
+            android:layout_centerHorizontal="true"
+             />
+
+        <TextView
+            android:id="@+id/imageViewExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:drawableTop="@drawable/exit"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="Exit"
+            android:layout_centerHorizontal="true"
+           />
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/imageViewClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame2"
+        android:textSize="10sp"
+        android:layout_marginTop="10dp"
+        android:drawableTop="@drawable/close"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:text="Close"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/imageViewShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame2"
+        android:textSize="10sp"
+        android:layout_marginTop="10dp"
+        android:drawableTop="@drawable/share"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:text="Share"
+        android:layout_alignParentLeft="true"
+        />
+
+
+</RelativeLayout>
